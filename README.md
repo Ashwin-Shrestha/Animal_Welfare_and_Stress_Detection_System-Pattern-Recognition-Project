@@ -30,6 +30,31 @@ The system does **not diagnose physiological stress**; instead, it infers **visu
   - Aligns methodology, results, and discussion
  
 
+
+
+## 📂 Dataset
+- **Dataset Name:** Animals-10  
+- **Source:** Kaggle (`alessiocorrado99/animals10`)  
+- **Description:** ~26,000 images across 10 animal species  
+- **Note:** No ground-truth stress or physiological labels are provided
+
+- ## Dataset (Manual Download)
+
+This project uses the **Animals-10** dataset from Kaggle:
+
+- Dataset: `alessiocorrado99/animals10`
+
+### Steps
+1. Download the dataset from Kaggle and unzip it.
+2. Create a folder in the repo root named `data_animals10/`
+3. Place the extracted image folder inside it (the notebook auto-detects the correct ImageFolder root).
+
+Expected structure (example):
+data_animals10/
+  raw-img/
+    cat/
+    dog/
+    ...
 ## ▶️ Instructions to Reproduce Results
 
 1. Install **Anaconda (Python 3.10 recommended)**
@@ -37,12 +62,6 @@ The system does **not diagnose physiological stress**; instead, it infers **visu
 3. Launch Jupyter Notebook:
    ```bash
    jupyter notebook
-
-## 📂 Dataset
-- **Dataset Name:** Animals-10  
-- **Source:** Kaggle (`alessiocorrado99/animals10`)  
-- **Description:** ~26,000 images across 10 animal species  
-- **Note:** No ground-truth stress or physiological labels are provided
 
 ---
 
